@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import styles from './Home.module.css'
+import perfil from '../img/developer-work.svg'
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
                 </Link>
             </div>
             <figure>
-                <img src="/developer-work.svg" alt="Imagem developer" className={styles.img_home} />
+                <img src={perfil} alt="Imagem developer" className={styles.img_home} />
             </figure>
         </section>    
     )
