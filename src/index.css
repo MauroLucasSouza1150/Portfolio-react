@@ -1,0 +1,19 @@
+:root {
+    font-family: 'Playfair Display', serif;
+
+    --primary: #112047;  
+    --secondary: #151a27;
+    --terceary: #8f8f8f;
+    --yellow: #d9ff00;
+    --black: #111;
+    --white: #fff;
+    --gray: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+

@@ -1,0 +1,30 @@
+.projetos {
+    padding: 2rem;
+}
+
+.projetos h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cards_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1rem;
+}
+
+@media (max-width: 768px) {
+    .projetos h2 {
+        margin-top: 4rem;
+    }
+    .projetos {
+        margin-bottom: 1.5rem;
+    }
+}
