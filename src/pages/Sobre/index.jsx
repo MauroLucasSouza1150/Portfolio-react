@@ -1,11 +1,11 @@
 import styles from './Sobre.module.css'
-import avatar from '../img/avatar.jpg'
-import html from '../img/html-icon.png'
-import css from '../img/css-icon.png'
-import js from '../img/js-icon.png'
-import nodejs from '../img/nodejs-icon.png'
-import react from '../img/react-icon.png'
-import sql from '../img/sql-icon.png'
+import avatar from '../../img/avatar.jpg'
+import html from '../../img/html-icon.png'
+import css from '../../img/css-icon.png'
+import js from '../../img/js-icon.png'
+import nodejs from '../../img/nodejs-icon.png'
+import react from '../../img/react-icon.png'
+import sql from '../../img/sql-icon.png'
 
 const Sobre = () => {
   return (
