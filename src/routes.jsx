@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from './pages/Home.jsx'
-import Sobre from './pages/Sobre.jsx'
-import Projetos from './pages/Projetos.jsx'
-import Contatos from './pages/Contatos.jsx'
-import Page404 from "./pages/Page404.jsx"
-import PageBase from "./pages/PageBase.jsx"
+import Home from './pages/Home'
+import Sobre from './pages/Sobre'
+import Projetos from './pages/Projetos'
+import Contatos from './pages/Contatos'
+import Page404 from "./pages/Page404"
+import PageBase from "./pages/PageBase"
 
 const AppRoutes = () => {
   return (
